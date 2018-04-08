@@ -1,9 +1,14 @@
 {
-    "name": "knplabs/github-api",
+    "name": "teamdevsquad/github-api",
     "type": "library",
     "description": "GitHub API v3 client",
     "homepage": "https://github.com/KnpLabs/php-github-api",
-    "keywords": ["github", "gh", "api", "gist"],
+    "keywords": [
+        "github",
+        "gh",
+        "api",
+        "gist"
+    ],
     "license": "MIT",
     "authors": [
         {
@@ -36,10 +41,14 @@
         "vlucas/phpdotenv": "^2.4"
     },
     "autoload": {
-        "psr-4": { "Github\\": "lib/Github/" }
+        "psr-4": {
+            "Github\\": "lib/Github/"
+        }
     },
     "autoload-dev": {
-        "psr-4": { "Github\\Tests\\": "test/Github/Tests/"}
+        "psr-4": {
+            "Github\\Tests\\": "test/Github/Tests/"
+        }
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
